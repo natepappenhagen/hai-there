@@ -1,0 +1,18 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+
+.aboutContainer span {
+  color: #F44336;
+}

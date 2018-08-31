@@ -1,0 +1,38 @@
+.mainContainer {
+  padding: 20px;
+  margin: 0 20px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+}
+
+.content {
+  position: fixed;
+  overflow: hidden;
+  width: 60%;
+}
+
+.repliesContainer {
+  position: absolute;
+  right: 0px;
+  overflow: auto;
+  width: 40%;
+}
+
+.replyTextAreaContainer {
+  width: 70%;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  composes: baseTextContainer from 'sharedStyles/styles.css';
+}
+
+.replyTextArea {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  composes: baseTextArea from 'sharedStyles/styles.css';
+}

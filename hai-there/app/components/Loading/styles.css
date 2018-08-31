@@ -1,0 +1,35 @@
+.design {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #4a90e2;
+  border-bottom-color: transparent;
+  animation: spin 0.5s linear 0s infinite;
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
+
+.para {
+  color: #4a90e2;
+  font-size: 30px;
+  font-weight: lighter;
+  animation: font-fade 1s linear infinite;
+}
+
+@keyframes font-fade {
+  0% {opacity: 1}
+  50% {opacity: 0.2}
+  100% {opacity: 1}
+}
+
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}

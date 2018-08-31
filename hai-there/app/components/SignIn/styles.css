@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  max-width: 400px;
+  width: 400px;
+  height: 475px;
+  justify-content: space-between;
+  margin: 0 auto 30px auto;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.loginHeader {
+  color: #fff;
+  border-radius: 2px 2px 0 0;
+  padding: 10px;
+  text-align: center;
+  background-color: #5890DC;
+}
+
+.loginHeader h2 {
+  font-weight: lighter;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.loginHeader p {
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.loginHeader p span {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.errorBox {
+  background: #F44336;
+  border-radius: 0;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: -24px;
+  z-index: 99;
+  padding: 10px;
+}
+
+.loginButton {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #fff;
+  width: 60%;
+  margin: 20px auto 0 auto;
+  background-color: #5890dc;
+  border: none;
+  padding: 10px 0;
+  cursor: pointer
+}
+
+.loginButton:disabled {
+  color: #fff;
+  background-color: #eee;
+}
+
+.loginButton:active {
+  transform: scale(0.8);
+}
+
+.loginButton:focus {
+  outline: none;
+}
+
+.formControl {
+  display: flex;
+  margin-top: -30px;
+  flex-direction: column;
+}
+
+.formControl input {
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid #eee;
+  margin: 10px auto;
+}
+
+.formControl input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #5890DC
+}

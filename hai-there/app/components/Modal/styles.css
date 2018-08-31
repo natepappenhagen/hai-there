@@ -1,0 +1,41 @@
+.newHaikuTop {
+  background: #fff;
+  padding: 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1877e6
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.newHaikuInputContainer {
+  composes: baseTextAreaContainer from 'sharedStyles/styles.css';
+}
+
+.newHaikuInput {
+  composes: baseTextArea from 'sharedStyles/styles.css';
+  border-width: 0
+}
+
+.darkBtn {
+  composes: darkBtn from 'sharedStyles/styles.css';
+  text-decoration: none;
+  background-color: #F44336;
+}
+
+
+.submitHaikuBtn {
+  composes: darkBtn;
+  margin: 0 auto;
+  width: 150px;
+  text-align: center;
+  display: block;
+}
+
+.submitHaikuBtn:disabled {
+  background: #c6c6c6;
+  border: 1px solid #c6c6c6;
+}

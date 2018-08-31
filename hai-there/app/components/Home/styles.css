@@ -1,0 +1,14 @@
+.container {
+  composes: centeredContainer from 'sharedStyles/styles.css';
+  margin-top: -100px;
+}
+
+.title {
+  composes: largeHeader from 'sharedStyles/styles.css';
+  font-size: 200px;
+}
+
+.slogan {
+  composes: subHeader from 'sharedStyles/styles.css';
+  font-size: 50px;
+}

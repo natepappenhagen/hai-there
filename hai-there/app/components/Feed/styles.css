@@ -1,0 +1,32 @@
+.newHaikuContainer {
+  border-radius: 2px;
+  margin: 15px auto;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 99;
+  background: #F44336;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -200px;
+  width: 400px;
+  color: #fff;
+  text-align: center;
+}
+
+.newHaikuContainer:hover {
+  background: #1877e6;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+  color: #4a90e2;
+  font-weight: lighter;
+}
+
+.haikuFeedContainer {
+  position: relative;
+  top: 50px;
+}
